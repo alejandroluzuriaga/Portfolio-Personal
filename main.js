@@ -9,7 +9,7 @@ app.innerHTML +=
   <div class="header-wrap">
     <div class="header-logo">
       <a href="/home">
-        <img src="./public/images/Logo-image.png" alt="Header_Portfolio_Logo">
+        <img src="./images/Logo-image.png" alt="Header_Portfolio_Logo">
       </a>
     </div>
     <nav class="header-optionWrapper">
@@ -164,7 +164,7 @@ const renderHome = () =>{
         <li class="technologies-item">React</li>
       </ul>
       <div class="avatar-container">
-        <img src="./public/images/Avatar.png" alt="Avatar Image" width="200px" height="200px">
+        <img src="./images/Avatar.png" alt="Avatar Image" width="200px" height="200px">
       </div>
     </div>
   </section>
