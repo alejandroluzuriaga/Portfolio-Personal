@@ -508,4 +508,11 @@ h1, h2, h3, h4, h5, h6{
     font-size: var(--fz-xxl);
   }
   /* HOME END */
+
+  @media screen and (min-width: 1921px){
+    .home{
+      padding: 0 20vh 0 25vh;
+    }
+   
+  }
 }
