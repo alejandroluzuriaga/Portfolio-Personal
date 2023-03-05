@@ -92,7 +92,7 @@ app.innerHTML +=
       </a>
     </li>
     <li class="social-media-element">
-      <a href="https://www.linkedin.com/in/alejandro-gonz%C3%A1lez">
+      <a href="https://www.linkedin.com/in/alejandro-gonz%C3%A1lez-a404501a6">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="30"
           height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round"
           stroke-linejoin="round">
