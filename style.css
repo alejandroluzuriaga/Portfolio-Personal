@@ -501,6 +501,7 @@ h1, h2, h3, h4, h5, h6{
 
   .social-media-mobile-and-tablet p{
     font-size: var(--fz-xxl);
+    padding-left: 7px;
   }
 
   .technologies-item{
