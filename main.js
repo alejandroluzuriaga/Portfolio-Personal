@@ -155,7 +155,7 @@ const renderHome = () =>{
     <h2 class="big-letters">Alejandro González Luzuriaga.</h2>
     <h3 class="big-letters">Soy un Full Stack Developer.</h3>
     <div class="social-media-mobile-and-tablet">
-      <p> Desarrollador Full Stack y estudiante de ingeniería informática. </br>Enfocado en construir webs rápidas y sencillas de usar. 
+      <p> Desarrollador Full Stack y estudiante de ingeniería informática. </br>Enfocado en construir webs rápidas y fáciles de usar. 
       </br> Las tecnologías con las que he trabajado recientemente son: </p>
       <ul class="technologies">
         <li class="technologies-item">HTML</li>
