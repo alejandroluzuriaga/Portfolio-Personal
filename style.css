@@ -226,6 +226,17 @@ h1, h2, h3, h4, h5, h6{
   min-height: 100vh;
   margin-bottom: 15px;
   max-width: 900px;
+  animation: slide-in 0.5s ease-in-out;
+}
+
+
+@keyframes slide-in {
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
 }
 
 .home h1{
@@ -510,9 +521,10 @@ h1, h2, h3, h4, h5, h6{
   /* HOME END */
 
   @media screen and (min-width: 1921px){
+    /* HOME */
     .home{
       padding: 0 20vh 0 25vh;
     }
-   
+   /* HOME END */
   }
 }
