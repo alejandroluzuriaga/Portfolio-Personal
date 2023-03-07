@@ -114,4 +114,223 @@ const renderExperience = () =>{
 
 const renderProjects = () =>{
   mainContent.innerHTML = ``;
+  mainContent.innerHTML += `
+  <section class="projects">
+            <h2 class="projects-section-title"> <p>03. </p>  Proyectos que he realizado</h2>
+            <ul class="projects-container">
+              <li class="project-element">
+                <div class="project-element-content">
+                  <p class="project-status">Desplegado ✅</p>
+                  <h3 class="project-title">
+                    <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/">Tienda Dinámica</a>
+                  </h3>
+                  <div class="project-description">
+                    <p>
+                      Maquetación web de Wallapop. Realizado para Rock{theCode}. Disponible <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/" class="project-description-link-text">aquí</a>
+                    </p>
+                  </div>
+                  <ul class="project-technologies">
+                    <li>VS Code</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/alejandroluzuriaga/Proyecto-Tienda-Dinamica">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                        width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                    </a>
+                    <a href="https://portfolio-alejandro-luzuriaga.netlify.app/">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                        <line x1="10" y1="14" x2="20" y2="4" />
+                        <polyline points="15 4 20 4 20 9" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-element-image">
+                  <div class="project-element-image-container">
+                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                  </div>
+                </div>
+              </li>
+              <li class="project-element">
+                <div class="project-element-content">
+                  <p class="project-status">Desplegado ✅</p>
+                  <h3 class="project-title">
+                    <a href="https://github.com/alejandroluzuriaga/Pokemon-Game">Pokemon Game</a>
+                  </h3>
+                  <div class="project-description">
+                    <p>
+                      Juego básico de Pokemon hecho como proyecto para la Universidad con 3 amigos.
+                    </p>
+                  </div>
+                  <ul class="project-technologies">
+                    <li>VS Code</li>
+                    <li>Java</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/alejandroluzuriaga/Pokemon-Game">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                        width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                    </a>
+                    <a href="https://github.com/alejandroluzuriaga/Pokemon-Game">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                        <line x1="10" y1="14" x2="20" y2="4" />
+                        <polyline points="15 4 20 4 20 9" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-element-image">
+                  <div class="project-element-image-container">
+                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                  </div>
+                </div>
+              </li>
+              <li class="project-element">
+                <div class="project-element-content">
+                  <p class="project-status">En progreso 👷‍♂️</p>
+                  <h3 class="project-title">
+                    <a href="https://portfolio-alejandro-luzuriaga.netlify.app/">Portfolio</a>
+                  </h3>
+                  <div class="project-description">
+                    <p>
+                      Proyecto de portfolio personal hecho para Rock{theCode}. Disponible <a href="https://portfolio-alejandro-luzuriaga.netlify.app/" class="project-description-link-text">aquí</a>
+                    </p>
+                  </div>
+                  <ul class="project-technologies">
+                    <li>VS Code</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://portfolio-alejandro-luzuriaga.netlify.app/">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                        width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                    </a>
+                    <a href="https://portfolio-alejandro-luzuriaga.netlify.app/">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                        <line x1="10" y1="14" x2="20" y2="4" />
+                        <polyline points="15 4 20 4 20 9" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-element-image">
+                  <div class="project-element-image-container">
+                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                  </div>
+                </div>
+              </li>
+              <li class="project-element">
+                <div class="project-element-content">
+                  <p class="project-status">🚀 Muy pronto 🚀</p>
+                  <h3 class="project-title">
+                    <a href="#">App NASA</a>
+                  </h3>
+                  <div class="project-description">
+                    <p>
+                      Aplicación web para renderizar la foto del día. Realizado para Rock{theCode}. Disponible <a href="#" class="project-description-link-text">aquí</a>
+                    </p>
+                  </div>
+                  <ul class="project-technologies">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                        width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                        <line x1="10" y1="14" x2="20" y2="4" />
+                        <polyline points="15 4 20 4 20 9" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-element-image">
+                  <div class="project-element-image-container">
+                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                  </div>
+                </div>
+              </li>
+              <li class="project-element">
+                <div class="project-element-content">
+                  <p class="project-status">🚀 Muy pronto 🚀</p>
+                  <h3 class="project-title">
+                    <a href="#">API Rest</a>
+                  </h3>
+                  <div class="project-description">
+                    <p>
+                      Servidor web. Realizado para Rock{theCode}. Disponible <a href="#" class="project-description-link-text">aquí</a>
+                    </p>
+                  </div>
+                  <ul class="project-technologies">
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                        width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+                        <line x1="10" y1="14" x2="20" y2="4" />
+                        <polyline points="15 4 20 4 20 9" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-element-image">
+                  <div class="project-element-image-container">
+                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+  `
 }

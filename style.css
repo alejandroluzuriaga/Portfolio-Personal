@@ -318,6 +318,104 @@ h1, h2, h3, h4, h5, h6{
 
 /* HOME END  */
 
+/* PROJECTS */
+
+.projects{
+  min-height: 100vh;
+  padding-top: 40%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin-bottom: 15px;
+  max-width: 900px;
+  animation: slide-in 0.5s ease-in-out;
+}
+
+.projects-section-title p, .project-status, .project-description-link-text{
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+  font-weight: 400;
+}
+
+.project-element{
+  background-color: rgba(17, 34, 64, 0.75);
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+.projects-section-title{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: clamp(26px,5vw,var(--fz-heading));
+  gap: 5px;
+}
+
+.project-title{
+  width: 100%;
+  font-size: clamp(26px,5vw,var(--fz-heading));
+  margin: 10px 0px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-title a{
+  font-weight: 600;
+  color: var(--lightest-slate);
+  line-height: 1.1;
+}
+
+.project-title:hover a{
+  color: var(--green);
+}
+
+.project-description p:not(.project-description-link-text){
+  color: var(--light-slate);
+  font-size: var(--fz-lg);
+  margin-bottom: 25px;
+}
+
+.project-description-link-text{
+  text-decoration: underline;
+  font-size: var(--fz-lg);
+}
+
+.projects li{
+  list-style: none;
+}
+
+.project-technologies{
+  display: flex;
+  gap: 15px;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.project-technologies li{
+  color: var(--lightest-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+}
+
+.project-element-content{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-element img{
+  display: none;
+}
+/* PROJECTS END  */
 /* MAIN END */
 
 
@@ -357,7 +455,7 @@ h1, h2, h3, h4, h5, h6{
     list-style: none;
   }
 
-  .side-element-left li:hover svg{
+  .side-element-left li:hover svg, .project-links a:hover svg{
     stroke: var(--green);
     transform: translateY(-5px);
   }
@@ -450,6 +548,12 @@ h1, h2, h3, h4, h5, h6{
     padding-left: 5px;
   }
   /* HOME END */
+  /* PROJECTS   */
+
+  .projects{
+    padding: 20%;
+  }
+  /* PROJECTS END  */
 }
 
 
@@ -519,6 +623,13 @@ h1, h2, h3, h4, h5, h6{
     font-size: var(--fz-xxl);
   }
   /* HOME END */
+
+    /* PROJECTS   */
+
+    .projects{
+      padding: 15%;
+    }
+    /* PROJECTS END  */
 
   @media screen and (min-width: 1921px){
     /* HOME */
