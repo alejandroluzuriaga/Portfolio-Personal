@@ -170,10 +170,6 @@ h1, h2, h3, h4, h5, h6{
   transition: all 0.1s ease-in;
 }
 
-.nav-item:hover{
-  transform: translateY(-8px);
-}
-
 .hamburger-container button{
   cursor: pointer;
 }
@@ -322,7 +318,7 @@ h1, h2, h3, h4, h5, h6{
 
 .projects{
   min-height: 100vh;
-  padding-top: 40%;
+  padding-top: 35%;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
@@ -559,6 +555,9 @@ h1, h2, h3, h4, h5, h6{
 
 @media screen and (min-width: 1024px) {
 
+  .nav-item:hover{
+    transform: translateY(-8px);
+  }
   .hamburger-container{
     display: none;
   }

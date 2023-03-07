@@ -116,7 +116,7 @@ const renderProjects = () =>{
   mainContent.innerHTML = ``;
   mainContent.innerHTML += `
   <section class="projects">
-            <h2 class="projects-section-title"> <p>03. </p>  Proyectos que he realizado</h2>
+            <h2 class="projects-section-title"> <p>03. </p>  Proyectos que he construido</h2>
             <ul class="projects-container">
               <li class="project-element">
                 <div class="project-element-content">
