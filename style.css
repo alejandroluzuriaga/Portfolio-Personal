@@ -425,10 +425,11 @@ h1, h2, h3, h4, h5, h6{
 
 .experience-container{
   margin-top: 50px;
-  background-color: rgba(17, 34, 64, 0.75);
+  background-color: transparent;
   border-radius: 40px;
   margin-bottom: 10%;
 }
+
 .experience{
   min-height: 100vh;
   padding-top: 35%;
@@ -470,6 +471,7 @@ h1, h2, h3, h4, h5, h6{
 .experience-element{
   border-radius: 40px;
   margin-bottom: 30px;
+  background-color: rgba(17, 34, 64, 0.75);
   animation: slide-in 0.5s ease-in-out;
 }
 
@@ -545,6 +547,7 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: slide-in 0.5s ease-in-out;
 }
 
 .experience-element img{
@@ -591,6 +594,13 @@ h1, h2, h3, h4, h5, h6{
 /* EXPERIENCE END */
 /* MAIN END */
 
+
+@media screen and (min-width: 550px) and (max-width:739px){
+  .home, .projects, .experience{
+    align-items: center;
+    padding: 130px 10%;
+  }
+}
 
 @media screen and (min-width: 740px){
 
@@ -792,8 +802,15 @@ h1, h2, h3, h4, h5, h6{
 
 @media screen and (min-width: 1024px) {
 
+  .nav-item{
+    height: 50px;
+    cursor: pointer;
+  }
+  .nav-item a{
+    height: 100%;
+  }
   .nav-item:hover{
-    transform: translateY(-8px);
+    transform: translateY(-5px);
   }
   .hamburger-container{
     display: none;
