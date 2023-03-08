@@ -3,6 +3,13 @@ import './style.css'
 const mainContent = document.querySelector('.main-content');
 let renderedComponent = '.home';
 
+const logo = document.querySelector('.header-logo');
+logo.addEventListener('click', () =>{
+  const homeButton = document.querySelector('#home');
+  homeButton.click();
+
+})
+
 const listElements = document.querySelectorAll('.header-optionButtons');
 listElements.forEach((element)=>{
   element.addEventListener('click', (ev)=>{
