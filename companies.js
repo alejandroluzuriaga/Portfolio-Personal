@@ -3,7 +3,7 @@ export const companies = [
         company: 'Apple',
         title: 'JavaScript Developer',
         date: 'Enero - Diciembre 2015',
-        description: 'Desarrollador Junior',
+        description: 'Desarrollador Web',
         responsability1: 'Programar y probar código según las especificaciones del proyecto.',
         responsability2: 'Colaborar en el desarrollo y mantenimiento de aplicaciones y sistemas.',
         responsability3: 'Aprender y aplicar nuevas tecnologías y metodologías de desarrollo de software.',

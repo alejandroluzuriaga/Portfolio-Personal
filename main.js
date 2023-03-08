@@ -125,22 +125,22 @@ const renderExperience = () =>{
   mainContent.innerHTML = ``;
   mainContent.innerHTML += `
   <section class="experience">
-            <h2 class="experience-section-title"> <p>02. </p> <span>Dónde he trabajado</span></h2>
+            <h2 class="experience-section-title"> <p>02. </p> <span>Puestos importantes</span></h2>
             <ul class="experience-companies">
               <li class="experience-companies-element">
-                <button class="experience-companies-element-text">Apple</button>
+                <button id="Apple" class="experience-companies-element-text">Apple</button>
               </li>
               <li class="experience-companies-element">
-                <button class="experience-companies-element-text">Google</button>
+                <button id="Google" class="experience-companies-element-text">Google</button>
               </li>
               <li class="experience-companies-element">
-                <button class="experience-companies-element-text">Amazon</button>
+                <button id="Amazon"  class="experience-companies-element-text">Amazon</button>
               </li>
               <li class="experience-companies-element">
-                <button class="experience-companies-element-text">Meta</button>
+                <button id="Meta"  class="experience-companies-element-text">Meta</button>
               </li>
               <li class="experience-companies-element">
-                <button class="experience-companies-element-text">IBM</button>
+                <button id="Apple"  class="experience-companies-element-text">IBM</button>
               </li>
             </ul>
             <ul class="experience-container">
@@ -151,8 +151,8 @@ const renderExperience = () =>{
   const companiesElements = document.querySelectorAll('.experience-companies-element');
   companiesElements.forEach((company)=>{
     const experienceElementContainer = document.querySelector('.experience-container');
-    const experienceFirstElement = getCompanyTemplate('Apple');
-    experienceElementContainer.innerHTML = experienceFirstElement;
+    const appleButton = document.querySelector('#Apple');
+    appleButton.click();
     company.addEventListener('click', (ev)=>{
       ev.preventDefault();
       const companieToRender = ev.target.innerText;

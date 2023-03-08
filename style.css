@@ -424,7 +424,10 @@ h1, h2, h3, h4, h5, h6{
 /* EXPERIENCE */
 
 .experience-container{
-  margin-top: 5px;
+  margin-top: 50px;
+  background-color: rgba(17, 34, 64, 0.75);
+  border-radius: 40px;
+  margin-bottom: 10%;
 }
 .experience{
   min-height: 100vh;
@@ -495,15 +498,17 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 600;
   color: var(--lightest-slate);
   line-height: 1.1;
+  cursor:auto;
 }
 
-.experience-title:hover a{
+.experience-companies-element:hover .experience-companies-element-text{
   color: var(--green);
 }
 
 .experience-description p:not(.experience-description-link-text){
   color: var(--light-slate);
   font-size: var(--fz-sm);
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -516,6 +521,7 @@ h1, h2, h3, h4, h5, h6{
   flex-direction: column;
   gap: 15px;
   margin-bottom: 15px;
+  width: 90%;
 }
 
 .experience-responsabilities-element::before{
@@ -545,6 +551,7 @@ h1, h2, h3, h4, h5, h6{
   display: block;
   width: 70px;
   height: 70px;
+  margin-top: 20%;
   border-radius: 15px;
   object-fit:scale-down;
   background-color: transparent;
@@ -564,6 +571,7 @@ h1, h2, h3, h4, h5, h6{
 .experience-companies-element button{
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .experience-companies-element{
@@ -572,6 +580,7 @@ h1, h2, h3, h4, h5, h6{
   height: 50%;
   cursor: pointer;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .experience-companies-element-clicked {
@@ -611,7 +620,7 @@ h1, h2, h3, h4, h5, h6{
 
   .side-element-left a, .side-element-right a{
     cursor: pointer;
-    transition: all 0.5 ease-in;
+
   } 
   
 
@@ -695,7 +704,9 @@ h1, h2, h3, h4, h5, h6{
   /* HOME END */
 
   /* EXPERIENCE */
-
+  .experience{
+    align-items: center;
+  }
   /* EXPERIENCE END */
 }
 
@@ -769,8 +780,13 @@ h1, h2, h3, h4, h5, h6{
   /* PROJECTS END  */
 
   /* EXPERIENCE */
-
-/* EXPERIENCE END */
+  .experience{
+    padding-top: 20%;
+  }
+  .experience-responsabilities{
+    width: 80%;
+  }
+  /* EXPERIENCE END */
 }
 
 
@@ -899,8 +915,43 @@ h1, h2, h3, h4, h5, h6{
       width: 50%;
     }
 
-    
     /* PROJECTS END  */
+    
+  /* EXPERIENCE */
+
+  .experience{
+    margin: 0 auto;
+    padding-top: 13%;
+    width: 100%;
+  }
+  .experience-responsabilities{
+    width: 90%;
+  }
+
+  .experience-companies-element-text{
+    font-size: var(--fz-lg);
+    transition: .15s ease-in-out;
+  }
+
+  .experience-title{
+    font-size: clamp(26px,5vw,40px);
+  }
+
+  .experience-status{
+    font-size: clamp(var(--fz-sm),4vw,var(--fz-xl));
+    margin-bottom: 15px;
+  }
+
+  .experience-description p:not(.experience-description-link-text){
+    font-size: var(--fz-lg);
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+
+  .experience-responsabilities li{
+    font-size: var(--fz-lg);
+  }
+  /* EXPERIENCE END */
 
   @media screen and (min-width: 1024px) and (max-width: 1440px){
     /* PROJECTS */
