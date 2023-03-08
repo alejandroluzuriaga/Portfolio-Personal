@@ -310,7 +310,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Aplicación web para renderizar la foto del día. Realizado para Rock{theCode}. Disponible <a href="#" class="project-description-link-text">aquí</a>
+                      Aplicación web para renderizar la foto del día. Realizado para Rock{theCode}.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -353,7 +353,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Servidor web. Realizado para Rock{theCode}. Disponible <a href="#" class="project-description-link-text">aquí</a>
+                      Servidor web completo REST. </br> Realizado para Rock{theCode}.
                     </p>
                   </div>
                   <ul class="project-technologies">
