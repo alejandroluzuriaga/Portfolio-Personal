@@ -48,7 +48,7 @@ const renderHome = () =>{
         <li class="technologies-item">React</li>
       </ul>
       <div class="avatar-container">
-        <img src="./images/Avatar.png" alt="Avatar Image" width="200px" height="200px">
+        <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/Avatar_hhndhk.png" alt="Avatar Image" width="200px" height="200px">
       </div>
     </div>
   </section>
@@ -158,7 +158,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/TiendaDinamica.png" alt="TiendaDinamica captura">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/TiendaDinamica_gdajsc.png" alt="TiendaDinamica captura">
                   </div>
                 </div>
               </li>
@@ -199,7 +199,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/Pokemon.png" alt="" width="200px" height="100px">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234977/Portfolio/Pokemon_jkxrha.png" alt="Pokemon image"">
                   </div>
                 </div>
               </li>
@@ -242,7 +242,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/Portfolio.png" alt="Portfolio">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/Portfolio_ztiuw2.png" alt="Portfolio">
                   </div>
                 </div>
               </li>
@@ -285,7 +285,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/EnConstruccion.png" alt="">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/EnConstruccion_nmlgfv.png" alt="En construccion">
                   </div>
                 </div>
               </li>
@@ -327,7 +327,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/EnConstruccion.png" alt="" width="200px" height="100px">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/EnConstruccion_nmlgfv.png" alt="En construccion">
                   </div>
                 </div>
               </li>
