@@ -626,6 +626,7 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     max-height: 50vh;
     z-index: 3;
+    overflow-y: hidden;
   }
 
   .side-element-left a, .side-element-right a{
@@ -808,6 +809,7 @@ h1, h2, h3, h4, h5, h6{
   }
   .nav-item a{
     height: 100%;
+    align-items: center;
   }
   .nav-item:hover{
     transform: translateY(-5px);
@@ -971,6 +973,11 @@ h1, h2, h3, h4, h5, h6{
   /* EXPERIENCE END */
 
   @media screen and (min-width: 1024px) and (max-width: 1440px){
+    /* HOME */
+      .home{
+      margin: 0 auto;
+      }
+    /* HOME END */
     /* PROJECTS */
     .project-element-image img{
       display: block;
@@ -991,6 +998,10 @@ h1, h2, h3, h4, h5, h6{
     /* HOME */
     .home{
       padding: 0 20vh 0 25vh;
+    }
+
+    .home, .projects, .experience{
+      margin: 0 auto;
     }
    /* HOME END */
 
