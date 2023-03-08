@@ -338,6 +338,14 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 400;
 }
 
+.projects-section-title span{
+  font-weight: 600;
+  color: var(--lightest-slate);
+  line-height: 1.1;
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
+}
+
 .project-element{
   background-color: rgba(17, 34, 64, 0.75);
   border-radius: 40px;
@@ -547,8 +555,53 @@ h1, h2, h3, h4, h5, h6{
   /* PROJECTS   */
 
   .projects{
-    padding: 20%;
+    padding-top: 20%;
+    max-width: 100%;
   }
+
+  .projects-container{
+    width: 100%;
+  }
+
+  .project-element{
+    position: relative;
+    display: flex;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .projects-container li:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+  .project-element-image{
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .project-element-image img{
+    display: block;
+    width: 260px;
+    height: 200px;
+    object-fit: fill;
+    opacity: 0.3;
+    margin: 0 auto;
+    border-radius:15px;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+    filter: blur(2px);
+  }
+
+  .project-element-image img:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  .project-element-content{
+    width: 50%;
+  }
+
   /* PROJECTS END  */
 }
 
@@ -626,9 +679,77 @@ h1, h2, h3, h4, h5, h6{
     /* PROJECTS   */
 
     .projects{
-      padding: 15%;
+      padding-top: 15%;
+      max-width: 100%;
     }
+
+    .projects-container{
+      width: 100%;
+    }
+
+    .project-element{
+      position: relative;
+      display: flex;
+      margin-bottom: 80px;
+      align-items: center;
+      justify-content: space-between;
+      height: 500px;
+    }
+
+    .project-description{
+      padding-left: 40px;
+    }
+
+    .projects-container li:nth-child(even){
+      flex-direction: row-reverse;
+    }
+
+    .project-element-image{
+      width: 80%;
+      overflow: hidden;
+    }
+
+    .project-element-image img{
+      display: block;
+      width: 630px;
+      height: 330px;
+      object-fit: fill;
+      opacity: 0.3;
+      margin: 0 auto;
+      border-radius:15px;
+      filter: grayscale(100%);
+      transition: .3s ease-in-out;
+      filter: blur(2px);
+    }
+
+    .project-element-image img:hover{
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+
+    .project-element-content{
+      width: 50%;
+    }
+
+    
     /* PROJECTS END  */
+
+  @media screen and (min-width: 1024px) and (max-width: 1440px){
+    /* PROJECTS */
+    .project-element-image img{
+      display: block;
+      width: 450px;
+      height: 280px;
+      object-fit: fill;
+      opacity: 0.3;
+      margin: 0 auto;
+      border-radius:15px;
+      filter: grayscale(100%);
+      transition: .3s ease-in-out;
+      filter: blur(2px);
+    }
+     /* PROJECTS END*/
+  }
 
   @media screen and (min-width: 1921px){
     /* HOME */

@@ -7,6 +7,7 @@ const listElements = document.querySelectorAll('.header-optionButtons');
 listElements.forEach((element)=>{
   element.addEventListener('click', (ev)=>{
     ev.preventDefault();
+    const closeButton = document.querySelector('.hamburger-button-close').click();
     const linkHref = ev.target.href;
     const enlace = linkHref.split('/').pop();
   
@@ -116,7 +117,7 @@ const renderProjects = () =>{
   mainContent.innerHTML = ``;
   mainContent.innerHTML += `
   <section class="projects">
-            <h2 class="projects-section-title"> <p>03. </p>  Proyectos que he construido</h2>
+            <h2 class="projects-section-title"> <p>03. </p> <span>Proyectos que he construido</span></h2>
             <ul class="projects-container">
               <li class="project-element">
                 <div class="project-element-content">
@@ -157,7 +158,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                    <img src="./images/TiendaDinamica.png" alt="TiendaDinamica captura">
                   </div>
                 </div>
               </li>
@@ -198,7 +199,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                    <img src="./images/Pokemon.png" alt="" width="200px" height="100px">
                   </div>
                 </div>
               </li>
@@ -241,7 +242,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                    <img src="./images/Portfolio.png" alt="Portfolio">
                   </div>
                 </div>
               </li>
@@ -284,7 +285,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                    <img src="./images/EnConstruccion.png" alt="">
                   </div>
                 </div>
               </li>
@@ -326,7 +327,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="./images/paisaje.jpg" alt="" width="200px" height="100px">
+                    <img src="./images/EnConstruccion.png" alt="" width="200px" height="100px">
                   </div>
                 </div>
               </li>
