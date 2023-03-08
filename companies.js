@@ -12,7 +12,7 @@ export const companies = [
     {
         company: 'Google',
         title: 'UI Designer',
-        date: 'Febrero 2016 - Abril 2018',
+        date: 'Septiembre 2022 - presente',
         description: 'Diseñador Gráfico',
         responsability1: 'Crear diseños atractivos y funcionales para interfaces web y móviles.',
         responsability2: 'Colaborar con equipos de desarrolladores para implementar diseños.',
@@ -43,7 +43,7 @@ export const companies = [
     {
         company: 'IBM',
         title: 'Front-end Engineer',
-        date: 'Septiembre 2022 - presente',
+        date: 'Febrero 2016 - Abril 2018',
         description: 'Desarrollador Full-stack',
         responsability1: 'Desarrollar y mantener aplicaciones web y móviles utilizando tecnologías FullStack.',
         responsability2: 'Realizar pruebas y depuración de código para garantizar la calidad y el rendimiento.',

@@ -127,20 +127,20 @@ const renderExperience = () =>{
   <section class="experience">
             <h2 class="experience-section-title"> <p>02. </p> <span>Puestos importantes</span></h2>
             <ul class="experience-companies">
-              <li class="experience-companies-element">
-                <button id="Apple" class="experience-companies-element-text">Apple</button>
+              <li class="experience-companies-element" id="Apple">
+                <button class="experience-companies-element-text">Apple</button>
               </li>
-              <li class="experience-companies-element">
-                <button id="Google" class="experience-companies-element-text">Google</button>
+              <li class="experience-companies-element" id="Google">
+                <button class="experience-companies-element-text">Google</button>
               </li>
-              <li class="experience-companies-element">
-                <button id="Amazon"  class="experience-companies-element-text">Amazon</button>
+              <li class="experience-companies-element" id="Amazon" >
+                <button class="experience-companies-element-text">Amazon</button>
               </li>
-              <li class="experience-companies-element">
-                <button id="Meta"  class="experience-companies-element-text">Meta</button>
+              <li class="experience-companies-element" id="Meta">
+                <button class="experience-companies-element-text">Meta</button>
               </li>
-              <li class="experience-companies-element">
-                <button id="Apple"  class="experience-companies-element-text">IBM</button>
+              <li class="experience-companies-element" id="IBM">
+                <button class="experience-companies-element-text">IBM</button>
               </li>
             </ul>
             <ul class="experience-container">
@@ -151,8 +151,8 @@ const renderExperience = () =>{
   const companiesElements = document.querySelectorAll('.experience-companies-element');
   companiesElements.forEach((company)=>{
     const experienceElementContainer = document.querySelector('.experience-container');
-    const appleButton = document.querySelector('#Apple');
-    appleButton.click();
+    const currentJobButton = document.querySelector('#Google');
+    currentJobButton.click();
     company.addEventListener('click', (ev)=>{
       ev.preventDefault();
       const companieToRender = ev.target.innerText;
