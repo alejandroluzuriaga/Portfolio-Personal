@@ -9,6 +9,7 @@ listElements.forEach((element)=>{
     ev.preventDefault();
     const closeButton = document.querySelector('.hamburger-button-close').click();
     const linkHref = ev.target.href;
+    console.log('El link apunta a ', linkHref)
     const enlace = linkHref.split('/').pop();
   
     switch(enlace){

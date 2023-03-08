@@ -757,5 +757,20 @@ h1, h2, h3, h4, h5, h6{
       padding: 0 20vh 0 25vh;
     }
    /* HOME END */
+
+   /* PROJECTS */
+   .project-element-image img{
+    display: block;
+    width: 820px;
+    height: 400px;
+    object-fit: fill;
+    opacity: 0.3;
+    margin: 0 auto;
+    border-radius:15px;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+    filter: blur(2px);
+  }
+   /* PROJECTS END*/
   }
 }
