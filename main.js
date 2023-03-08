@@ -1,4 +1,6 @@
+import { companies, getCompanyTemplate } from './companies';
 import './style.css'
+
 
 const mainContent = document.querySelector('.main-content');
 let renderedComponent = '.home';
@@ -117,8 +119,54 @@ const renderHome = () =>{
 }
 renderHome();
 
+
+
 const renderExperience = () =>{
   mainContent.innerHTML = ``;
+  mainContent.innerHTML += `
+  <section class="experience">
+            <h2 class="experience-section-title"> <p>02. </p> <span>Dónde he trabajado</span></h2>
+            <ul class="experience-companies">
+              <li class="experience-companies-element">
+                <button class="experience-companies-element-text">Apple</button>
+              </li>
+              <li class="experience-companies-element">
+                <button class="experience-companies-element-text">Google</button>
+              </li>
+              <li class="experience-companies-element">
+                <button class="experience-companies-element-text">Amazon</button>
+              </li>
+              <li class="experience-companies-element">
+                <button class="experience-companies-element-text">Meta</button>
+              </li>
+              <li class="experience-companies-element">
+                <button class="experience-companies-element-text">IBM</button>
+              </li>
+            </ul>
+            <ul class="experience-container">
+              
+            </ul>
+          </section>
+  `
+  const companiesElements = document.querySelectorAll('.experience-companies-element');
+  companiesElements.forEach((company)=>{
+    const experienceElementContainer = document.querySelector('.experience-container');
+    const experienceFirstElement = getCompanyTemplate('Apple');
+    experienceElementContainer.innerHTML = experienceFirstElement;
+    company.addEventListener('click', (ev)=>{
+      ev.preventDefault();
+      const companieToRender = ev.target.innerText;
+      const experienceElement = getCompanyTemplate(companieToRender)
+      companiesElements.forEach((otherCompany) => {
+        if (otherCompany !== company && otherCompany.classList.contains("experience-companies-element-clicked")) {
+          otherCompany.classList.remove("experience-companies-element-clicked");
+        }
+      });
+      company.classList.add("experience-companies-element-clicked");
+      experienceElementContainer.innerHTML = experienceElement;
+    })
+})
+
 }
 
 const renderProjects = () =>{
@@ -256,7 +304,7 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">🚀 Muy pronto 🚀</p>
+                  <p class="project-status"> Muy pronto 🚀</p>
                   <h3 class="project-title">
                     <a href="#">App NASA</a>
                   </h3>
@@ -299,7 +347,7 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">🚀 Muy pronto 🚀</p>
+                  <p class="project-status"> Muy pronto 🚀</p>
                   <h3 class="project-title">
                     <a href="#">API Rest</a>
                   </h3>
