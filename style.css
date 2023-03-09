@@ -626,7 +626,6 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     max-height: 50vh;
     z-index: 3;
-    overflow-y: hidden;
   }
 
   .side-element-left a, .side-element-right a{
