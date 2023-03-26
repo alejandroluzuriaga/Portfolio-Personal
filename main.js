@@ -16,7 +16,8 @@ const listElements = document.querySelectorAll('.header-optionButtons');
 listElements.forEach((element)=>{
   element.addEventListener('click', (ev)=>{
     ev.preventDefault();
-    const closeButton = document.querySelector('.hamburger-button-close').click();
+    const closeButton = document.querySelector('.hamburger-button-close')
+    closeButton.click();
     const linkHref = ev.target.href;
     console.log('El link apunta a ', linkHref)
     const enlace = linkHref.split('/').pop();
@@ -183,7 +184,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Maquetación web de Wallapop. Realizado para Rock{theCode}. Disponible <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/" class="project-description-link-text">aquí</a>
+                      Maquetación web de Wallapop. Disponible <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/" class="project-description-link-text">aquí</a>
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -267,7 +268,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Proyecto de portfolio personal hecho para Rock{theCode}. Disponible <a href="https://portfolio-alejandro-luzuriaga.netlify.app/" class="project-description-link-text">aquí</a>
+                      Portfolio personal.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -306,11 +307,11 @@ const renderProjects = () =>{
                 <div class="project-element-content">
                   <p class="project-status"> Muy pronto 🚀</p>
                   <h3 class="project-title">
-                    <a href="#">App NASA</a>
+                    <a href="https://pic-of-the-day-alejandro-luzuriaga.netlify.app/">App NASA</a>
                   </h3>
                   <div class="project-description">
                     <p>
-                      Aplicación web para renderizar la foto del día. Realizado para Rock{theCode}.
+                      Foto del día usando dos API's de la NASA.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -320,7 +321,7 @@ const renderProjects = () =>{
                     <li>React</li>
                   </ul>
                   <div class="project-links">
-                    <a href="#">
+                    <a href="https://github.com/alejandroluzuriaga/Pic-Of-The-Day">
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
                         width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -329,7 +330,7 @@ const renderProjects = () =>{
                           d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                       </svg>
                     </a>
-                    <a href="#">
+                    <a href="https://pic-of-the-day-alejandro-luzuriaga.netlify.app/">
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ccd6f6" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
@@ -341,7 +342,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/EnConstruccion_nmlgfv.png" alt="En construccion">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1679842115/Portfolio/Pic-Of-The-Day_xpmrji.png" alt="Pic-Of-The-Day-Project">
                   </div>
                 </div>
               </li>
@@ -353,7 +354,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Servidor web completo REST. </br> Realizado para Rock{theCode}.
+                      Servidor web completo REST. </br>
                     </p>
                   </div>
                   <ul class="project-technologies">
