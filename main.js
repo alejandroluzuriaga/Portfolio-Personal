@@ -262,7 +262,7 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">En progreso 👷‍♂️</p>
+                  <p class="project-status">Desplegado ✅</p>
                   <h3 class="project-title">
                     <a href="https://portfolio-alejandro-luzuriaga.netlify.app/">Portfolio</a>
                   </h3>
@@ -305,7 +305,7 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status"> Muy pronto 🚀</p>
+                  <p class="project-status">Desplegado ✅</p>
                   <h3 class="project-title">
                     <a href="https://pic-of-the-day-alejandro-luzuriaga.netlify.app/">App NASA</a>
                   </h3>
