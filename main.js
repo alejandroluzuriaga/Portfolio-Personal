@@ -184,7 +184,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Maquetación web de Wallapop. Disponible <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/" class="project-description-link-text">aquí</a>
+                      Maquetación web de Wallapop.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -227,7 +227,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Juego básico de Pokemon hecho como proyecto para la Universidad con 3 amigos.
+                      Juego de Pokemon hecho para la Universidad colaborando con 3 compañeros.
                     </p>
                   </div>
                   <ul class="project-technologies">
