@@ -393,7 +393,7 @@ const renderProjects = () =>{
                 <div class="project-element-content">
                   <p class="project-status">Desplegado ✅</p>
                   <h3 class="project-title">
-                    <a href="https://pic-of-the-day-alejandro-luzuriaga.netlify.app/">Hub de Juegos</a>
+                    <a href="https://gamehub-alejandroluzuriaga.netlify.app">Hub de Juegos</a>
                   </h3>
                   <div class="project-description">
                     <p>
