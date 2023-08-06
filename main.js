@@ -493,7 +493,7 @@ const renderProjects = () =>{
                 </div>
                 <div class="project-element-image">
                   <div class="project-element-image-container">
-                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1691360763/Portfolio/API-RELACIONAL_dsayhu.png" alt="API REST RELACIONAL">
+                    <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1691360943/Portfolio/API-RELACIONAL_rusmnq.png" alt="API REST RELACIONAL">
                   </div>
                 </div>
               </li>
