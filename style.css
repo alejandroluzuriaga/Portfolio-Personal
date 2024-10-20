@@ -523,18 +523,21 @@ h1, h2, h3, h4, h5, h6{
   flex-direction: column;
   gap: 15px;
   margin-bottom: 15px;
-  width: 90%;
+  padding-left: 3%;
+  align-items: center;
+  width: 70%;
 }
 
 .experience-responsabilities-element::before{
   content: "▹";
-  padding-right: 15px;
+  padding-right: 7%;
   color: var(--green);
 }
 
 .experience-responsabilities-element{
   display: flex;
   justify-content: center;
+  width: 70%;
 }
 
 .experience-responsabilities li, .experience-companies-element-text{
@@ -547,6 +550,7 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5%;
   animation: slide-in 0.5s ease-in-out;
 }
 
@@ -579,11 +583,14 @@ h1, h2, h3, h4, h5, h6{
 
 .experience-companies-element{
   padding: 15px;
-  width: 33%;
+  /* width: 33%; */
   height: 50%;
   cursor: pointer;
   border: 2px solid transparent;
   cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .experience-companies-element-clicked {

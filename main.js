@@ -46,17 +46,19 @@ const renderHome = () =>{
     mainContent.innerHTML = ``;
     mainContent.innerHTML += `
       <section class="home">
-    <h1>Hola, mi nombre es</h1>
+    <h1>Hi, my name is</h1>
     <h2 class="big-letters">Alejandro González Luzuriaga.</h2>
-    <h3 class="big-letters">Soy un Full Stack Developer.</h3>
+    <h3 class="big-letters">I'm a Full Stack Developer.</h3>
     <div class="social-media-mobile-and-tablet">
-      <p> Desarrollador Full Stack y estudiante de ingeniería informática. </br>Enfocado en construir webs rápidas y fáciles de usar. 
-      </br> Las tecnologías con las que he trabajado recientemente son: </p>
+      <p> Full Stack Developer and Computer Engineering student. </br>Focused on building fast and user-friendly websites.
+      </br> Recently worked with the following technologies: </p>
       <ul class="technologies">
-        <li class="technologies-item">HTML</li>
-        <li class="technologies-item">CSS</li>
-        <li class="technologies-item">JavaScript</li>
-        <li class="technologies-item">React</li>
+      <li class="technologies-item">Adobe Campaign Classic (SQL,E4X, XML)</li>
+      <li class="technologies-item">JavaScript</li>
+      <li class="technologies-item">React</li>
+      <li class="technologies-item">Python</li>
+      <li class="technologies-item">Scala</li>
+      <li class="technologies-item">Java</li>
       </ul>
       <div class="avatar-container">
         <img src="https://res.cloudinary.com/djgkryxou/image/upload/v1678234976/Portfolio/Avatar_hhndhk.png" alt="Avatar Image" width="200px" height="200px">
@@ -126,34 +128,20 @@ const renderExperience = () =>{
   mainContent.innerHTML = ``;
   mainContent.innerHTML += `
   <section class="experience">
-            <h2 class="experience-section-title"> <p>02. </p> <span>Puestos importantes</span></h2>
+            <h2 class="experience-section-title"> <p>02. </p> <span>Notable Roles</span></h2>
             <ul class="experience-companies">
-              <li class="experience-companies-element" id="Apple">
-                <button class="experience-companies-element-text">Apple</button>
-              </li>
-              <li class="experience-companies-element" id="Google">
-                <button class="experience-companies-element-text">Google</button>
-              </li>
-              <li class="experience-companies-element" id="Amazon" >
-                <button class="experience-companies-element-text">Amazon</button>
-              </li>
-              <li class="experience-companies-element" id="Meta">
-                <button class="experience-companies-element-text">Meta</button>
-              </li>
-              <li class="experience-companies-element" id="IBM">
-                <button class="experience-companies-element-text">IBM</button>
+              <li class="experience-companies-element" id="vmlMap">
+                <button class="experience-companies-element-text">VML MAP</button>
               </li>
             </ul>
             <ul class="experience-container">
-              
             </ul>
-          </section>
+    </section>
   `
   const companiesElements = document.querySelectorAll('.experience-companies-element');
   companiesElements.forEach((company)=>{
     const experienceElementContainer = document.querySelector('.experience-container');
-    const currentJobButton = document.querySelector('#Google');
-    currentJobButton.click();
+    const currentJobButton = document.querySelector('#vmlMap').click();
     company.addEventListener('click', (ev)=>{
       ev.preventDefault();
       const companieToRender = ev.target.innerText;
@@ -167,6 +155,12 @@ const renderExperience = () =>{
       experienceElementContainer.innerHTML = experienceElement;
     })
 })
+  setTimeout(() => {
+    const currentJobButton = document.querySelector('#vmlMap');
+    if (currentJobButton) {
+      currentJobButton.click();
+    }
+  }, 0);
 
 }
 
@@ -174,17 +168,17 @@ const renderProjects = () =>{
   mainContent.innerHTML = ``;
   mainContent.innerHTML += `
   <section class="projects">
-            <h2 class="projects-section-title"> <p>03. </p> <span>Proyectos que he construido</span></h2>
+            <h2 class="projects-section-title"> <p>03. </p> <span>Projects</span></h2>
             <ul class="projects-container">
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">Desplegado ✅</p>
+                  <p class="project-status">Live ✅</p>
                   <h3 class="project-title">
-                    <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/">Tienda Dinámica</a>
+                    <a href="https://tienda-dinamica-alejandroluzuriaga.netlify.app/">Dynamic E-Commerce</a>
                   </h3>
                   <div class="project-description">
                     <p>
-                      Maquetación web de Wallapop.
+                      Wallapop Web Mockup.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -221,13 +215,13 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">Desplegado ✅</p>
+                  <p class="project-status">Live ✅</p>
                   <h3 class="project-title">
                     <a href="https://github.com/alejandroluzuriaga/Pokemon-Game">Pokemon Game</a>
                   </h3>
                   <div class="project-description">
                     <p>
-                      Juego de Pokemon hecho para la Universidad colaborando con 3 compañeros.
+                      Pokemon game for Uni project made with 3 collaborators.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -268,7 +262,7 @@ const renderProjects = () =>{
                   </h3>
                   <div class="project-description">
                     <p>
-                      Portfolio personal.
+                      Personal portfolio.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -305,13 +299,13 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">Desplegado ✅</p>
+                  <p class="project-status">Live ✅</p>
                   <h3 class="project-title">
                     <a href="https://pic-of-the-day-alejandro-luzuriaga.netlify.app/">App NASA</a>
                   </h3>
                   <div class="project-description">
                     <p>
-                      Foto del día usando dos API's de la NASA.
+                      Foto of the day using 2 NASA APIs.
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -348,13 +342,13 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">Desplegado ✅</p>
+                  <p class="project-status">Live ✅</p>
                   <h3 class="project-title">
-                    <a href="https://weather-app-alejandro-luzuriaga.netlify.app/">Weather APP</a>
+                    <a href="https://weather-app-alejandro-luzuriaga.netlify.app/">Weather App</a>
                   </h3>
                   <div class="project-description">
                     <p>
-                      Aplicación del clima.
+                      Check the weather conditions in your area!
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -391,13 +385,13 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status">Desplegado ✅</p>
+                  <p class="project-status">Live ✅</p>
                   <h3 class="project-title">
-                    <a href="https://gamehub-alejandroluzuriaga.netlify.app">Hub de Juegos</a>
+                    <a href="https://gamehub-alejandroluzuriaga.netlify.app">Game Hub</a>
                   </h3>
                   <div class="project-description">
                     <p>
-                      Aplicación de juegos con autenticación. 
+                      Log In and have fun! 
                     </p>
                   </div>
                   <ul class="project-technologies">
@@ -434,9 +428,9 @@ const renderProjects = () =>{
               </li>
               <li class="project-element">
                 <div class="project-element-content">
-                  <p class="project-status"> Desplegado ✅</p>
+                  <p class="project-status"> Live ✅</p>
                   <h3 class="project-title">
-                    <a href="https://github.com/alejandroluzuriaga/API-REST">API Rest</a>
+                    <a href="https://github.com/alejandroluzuriaga/API-REST">Rest API</a>
                   </h3>
                   <div class="project-description">
 
@@ -469,7 +463,7 @@ const renderProjects = () =>{
                 <div class="project-element-content">
                   <p class="project-status"> Desplegado ✅</p>
                   <h3 class="project-title">
-                    <a href="https://github.com/alejandroluzuriaga/API-REST">API Rest Relacional</a>
+                    <a href="https://github.com/alejandroluzuriaga/API-REST">Relational REST API</a>
                   </h3>
                   <div class="project-description">
                   </div>
