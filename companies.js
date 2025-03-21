@@ -3,7 +3,7 @@ export const companies = [
         company: 'VML MAP',
         title: 'Developer',
         date: 'September 2023 - Present',
-        description: 'Associate Developer',
+        description: 'Developer',
         responsability1: "Managing and developing software for one of the world's largest companies.",
         responsability2: 'Continuous communication with client',
         responsability3: 'Maximized personalization in campaigns',
