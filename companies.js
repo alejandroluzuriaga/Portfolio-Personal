@@ -37,6 +37,6 @@ export const getCompanyTemplate = (compañia) =>{
           <li class="experience-responsabilities-element">${compañiaData.responsability3}</li>
         </ul>
       </div>
-    </li>
+    </li> 
     `
 }
